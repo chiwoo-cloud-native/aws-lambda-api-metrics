@@ -8,7 +8,7 @@ Application LoadBalancer 와 Lambda 를 통합한 helloworld Lambda 애플리케
 
 ## Git
 ```
-git clone https://github.com/chiwoo-cloud-native/aws-lambda-samples.gi
+git clone https://github.com/chiwoo-cloud-native/aws-lambda-samples.git
 ```
 
 
@@ -36,4 +36,3 @@ npm test
 ```
 docker build -t helloworld:latest -f ./helloworld/Dockerfile .
 ```
-

@@ -3,4 +3,5 @@ AWS Lambda 샘플 프로젝트 입니다.
 
 ## Samples
 
-- [101 echo-eventbridge](./echo-eventbridge/HELP.md)
+- [echo-eventbridge](./echo-eventbridge/HELP.md)
+- [helloworld](./helloworld/HELP.md)
