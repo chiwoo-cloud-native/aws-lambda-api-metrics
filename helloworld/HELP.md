@@ -1,10 +1,13 @@
 # helloworld
 
-Application LoadBalancer 와 Lambda 를 통합한 helloworld Lambda 애플리케이션을 구현 하고 배포 합니다.  
+Application LoadBalancer 와 Lambda 를 통합한 helloworld 애플리케이션 서비스를 구현 하고 배포 합니다.  
 
 ## Architecture
 
 ![](../images/helloword.png)
+
+- [aws-alb-lambda-helloworld](https://github.com/chiwoo-cloud-native/aws-alb-lambda-helloworld.git) 테라폼 프로젝트를 통해 간단하게 프로비저닝 할 수 있습니다. 
+
 
 ## Git
 ```
@@ -35,4 +38,10 @@ npm test
 
 ```
 docker build -t helloworld:latest -f ./helloworld/Dockerfile .
+```
+
+
+## 기능 수정 및 배포 
+```
+
 ```
